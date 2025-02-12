@@ -7,7 +7,7 @@ if (isAdmin || isOwner || m.fromMe || isROwner || !isBotAdmin) return
 
 let delet = m.key.participant
 let bang = m.key.id
-
+jj
 let chat = global.db.data.chats[m.chat]
 if (!chat || !chat.antifake) return
 
